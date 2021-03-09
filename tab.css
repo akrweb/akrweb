@@ -1,0 +1,51 @@
+.main_container #intro{
+    width: 580px;
+}
+.main_container #update_box{
+    /* position: absolute; */
+    /* top: 2rem; */
+    right: 1rem;
+    /* height: 20rem; */
+    /* width: 24rem; */
+    /* padding: 20px;  */
+    /* color: white; */
+    /* overflow: hidden; */
+    /* transition: .3s; */
+    /* background-color: var(--tertiary_color); */
+    /* border-left: 3px solid rgba(255, 255, 255, 0.24); */
+    /* border-right: 3px solid rgba(255, 255, 255, 0.24); */
+    /* box-shadow: 0px 0px 0px 0px var(--tertiary_color); */
+}
+#nav #nav_list_box{
+    /* background-color: var(--primary_color);
+    display: flex;
+    height: 4rem; */
+    width: 35rem;
+    /* position: sticky;
+    left: auto;
+    top:0;
+    align-self: baseline;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+ */
+}
+.main_container #intro{
+    font-size: 1.4em;
+    /* background-color: rgba(255, 255, 255, 0.103); */
+}
+.main_container .projects_box,
+.heading_box_style
+{
+    /* position: relative; */
+    /* top: 0; */
+    /* left: 0; */
+    /* height: 34rem; */
+    /* width: 100%; */
+    /* border-bottom: 2px solid rgba(255, 255, 255, 0.349); */
+}
+.main_container .projects_box #projects_h,
+.heading_style
+{
+   font-size: 1.8em;
+}
