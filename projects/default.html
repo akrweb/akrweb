@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            line-height: 2rem;
+            letter-spacing: .4rem;
+            /* border: 1px solid white; */
+            text-transform: uppercase;
+            text-shadow: 0 0 10px black;
+            font-size: large;
+            transform: translate(-50%, -50%);
+            color: rgba(255, 255, 255, 0.808);
+            opacity: .6;
+            height: max-content;
+            width: auto;
+            user-select: none;
+            cursor: none;
+            text-align: center;
+        }
+        @media only screen and (max-width:900px){
+            p{
+                font-size: 1em;
+                letter-spacing: .2rem;
+            }
+        }
+        @media only screen and (max-width:600px){
+            p{
+                font-size: .7em;
+                letter-spacing: .1rem;
+            }
+        }
+
+        /* p span{ */
+            /* transition: .5s; */
+            /* animation: shine_text 1s linear 0s 1 forwards; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        /* } */
+
+        /* @keyframes shine_text {
+            0% {
+                opacity: .3;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: .3;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <p>Select anyone from the above list to see the effect</p>
+</body>
+
+</html>

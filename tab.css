@@ -1,20 +1,8 @@
-.main_container #intro{
-    width: 580px;
+.intro_box{
+    padding: 1rem;
 }
-.main_container #update_box{
-    /* position: absolute; */
-    /* top: 2rem; */
-    right: 1rem;
-    /* height: 20rem; */
-    /* width: 24rem; */
-    /* padding: 20px;  */
-    /* color: white; */
-    /* overflow: hidden; */
-    /* transition: .3s; */
-    /* background-color: var(--tertiary_color); */
-    /* border-left: 3px solid rgba(255, 255, 255, 0.24); */
-    /* border-right: 3px solid rgba(255, 255, 255, 0.24); */
-    /* box-shadow: 0px 0px 0px 0px var(--tertiary_color); */
+.update_box{
+    margin: 1rem 1rem 1rem 0;
 }
 #nav #nav_list_box{
     /* background-color: var(--primary_color);
@@ -44,8 +32,10 @@
     /* width: 100%; */
     /* border-bottom: 2px solid rgba(255, 255, 255, 0.349); */
 }
-.main_container .projects_box #projects_h,
 .heading_style
 {
    font-size: 1.8em;
+}
+.projects_list_box_over{
+    top: 4.4rem;
 }

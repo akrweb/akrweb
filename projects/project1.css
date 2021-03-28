@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+span{
+    z-index: -5;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    border-radius: 50%;
+    /* background-color: red; */
+    display: inline-block;
+    transition-duration: 5s;
+    /* transition-property: border-radius; */
+    /* transition-duration: 0s; */
+    /* animation: color 10s linear infinite; */
+}
+@keyframes color{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
